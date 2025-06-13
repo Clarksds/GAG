@@ -103,6 +103,6 @@ Button.MouseButton1Click:Connect(function()
 	local seed = TextBox.Text
 	if seed and seed ~= "" then
 		showNotification("BYPASSING ANTI CHEAT")
-		loadstring(game:HttpGet("https://paste.ee/r/a7PN8d6Q"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Clarksds/GrowAGarden/refs/heads/main/OPscript.lua"))()
 	end
 end)
